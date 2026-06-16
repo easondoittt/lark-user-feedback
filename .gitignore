@@ -1,0 +1,6 @@
+.DS_Store
+roi-log.tsv
+*.backup.*
+*.tmp
+log/
+raw_*.json
