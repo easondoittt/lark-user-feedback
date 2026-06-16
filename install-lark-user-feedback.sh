@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO_URL="${DESIGN_AI_SKILLS_REPO:-https://github.com/easondoittt/design-ai-skills.git}"
-INSTALL_ROOT="${DESIGN_AI_SKILLS_HOME:-$HOME/design-ai-skills}"
+REPO_URL="${LARK_USER_FEEDBACK_REPO:-https://github.com/easondoittt/lark-user-feedback.git}"
+INSTALL_ROOT="${LARK_USER_FEEDBACK_HOME:-$HOME/lark-user-feedback}"
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")" 2>/dev/null && pwd || pwd)"
 SKILL="$ROOT/skills/lark-user-feedback"
 
