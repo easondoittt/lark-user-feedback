@@ -7,7 +7,9 @@ metadata:
     bins: ["lark-cli"]
 ---
 
-# 用户反馈用研工作流
+# lark-user-feedback
+
+用户反馈用研工作流。
 
 **CRITICAL — 开始前 MUST 先使用 `lark-shared` skill 确认认证、权限、`--as` 身份。**
 出报告阶段还需配合 `lark-im`（采集）、`lark-doc`（建文档）、`beautiful-feishu-whiteboard`（出画板）。
